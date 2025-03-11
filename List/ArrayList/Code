@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+class ArrayListPrg{
+    public static void main(String[] args) {
+        ArrayList<String> lst=new ArrayList();
+        lst.add("apple");
+        lst.add("bannana");
+        lst.add("carrot");
+        ArrayList<String> lst1=new ArrayList<>(lst);
+        System.out.println(lst1);
+        lst1.add("eve");
+        lst1.add("orange");
+        lst1.add("guva");
+        lst.addAll(lst1);
+        System.out.println(lst);
+
+    }
+}
