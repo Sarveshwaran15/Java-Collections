@@ -1,0 +1,12 @@
+import java.util.*;
+class List1{
+    public static void main(String[] args) {
+        List<String> lst=new ArrayList<>();
+        lst.add("apple");
+        lst.add("bannana");
+        lst.add("grape");
+        lst.add("grape");
+        System.out.println(lst.get(0));
+        System.out.println(lst);
+    }
+}
