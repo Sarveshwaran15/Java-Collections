@@ -1,0 +1,14 @@
+import java.util.*;
+public class Collection1 {
+    public static void main(String[] args) {
+        Collection<Integer> collection=new ArrayList<>();
+        collection.add(3);
+        collection.add(2);
+        System.out.println(collection);
+        collection.remove(3);
+        System.out.println(collection);
+        collection.forEach((element) -> {
+            System.out.println(element);
+        });
+    }
+}
