@@ -1,0 +1,4 @@
+List is used to store the order in which they are inserted.
+It allows duplicates.
+It can have Null value.
+Implementation : ArrayList, LinkedList, Vector, Stack.
