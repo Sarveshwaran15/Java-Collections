@@ -1,3 +1,4 @@
 ArrayList is a resizable array, where it has dynamic nature. 
 If the element needs to be added then the size of the arraylist will expand.
 If the element needs to be removed then the size of the arraylist will shrink.
+The default capacity of the array list is 10.
