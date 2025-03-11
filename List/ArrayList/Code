@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 class ArrayListPrg{
     public static void main(String[] args) {
@@ -12,7 +13,11 @@ class ArrayListPrg{
         lst1.add("orange");
         lst1.add("guva");
         lst.addAll(lst1);
-        System.out.println(lst);
+       for(Iterator iterator=lst.iterator();iterator.hasNext();)
+       {
+            String fruit=(String)iterator.next();
+            System.out.println(fruit);
+       }
 
     }
 }
